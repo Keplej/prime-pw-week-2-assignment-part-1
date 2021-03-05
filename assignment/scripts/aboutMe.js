@@ -29,7 +29,7 @@ const allowedPets = 4;
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!",
 // if it's not true, console log "How about we stay home?"
 if (adventurous) {
-  console.log("Aventures are great!");
+  console.log("Adventures are great!");
 } else {
   console.log("How about we stay home?");
 }
@@ -49,7 +49,7 @@ if (pets < allowedPets) {
 } else if (pets === allowedPets) {
   console.log('I have enough pets');
 } else if (pets > allowedPets) {
-  console.log('Oh no, I have too many pets!');
+  console.log("Oh no, I have too many pets!");
 }
 // STRETCH GOALS:
 
@@ -79,3 +79,4 @@ switch (mostPets) {
   break;
 }
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
+adventurous ? console.log("Adventures are great!") : console.log("How about we stay home?");
